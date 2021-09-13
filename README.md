@@ -11,7 +11,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
+  - [To know further](#to-know-further)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -33,7 +33,6 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
 
 ### Links
@@ -47,8 +46,6 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Styled Components](https://styled-components.com/) - For styles
@@ -56,21 +53,19 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 ### What I learned
 
+- Got a lot more comfortable working with .svg files by importing them directly as react components. Understood the difference between viewPort and viewBox and used this concept to appropriately resize the .svg logo without clipping any part of it.
 
-### Continued development
+### To know further
 
-
+- After importing .svg file as a React component, how am I able to pass attributes which is possible in a React element? Probably the answer could be that the attributes are passed as props itself but .svg is imported in such a way that the props are used to define the corresponding attributes with the provided value under the hood.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [What are SVG viewport and viewBox?](https://www.youtube.com/watch?v=TBYJ2V1jAlA) - This helped me understand the difference between viewPort and viewBox.
+- [SVG Components in React](https://www.youtube.com/watch?v=JUrcWu57itY) - Another way to use the .svg file with all its advantages by importing it as a react component.
 
 
 ## Author
 
 - Frontend Mentor - [@geeky-amat](https://www.frontendmentor.io/profile/geeky-amat)
 - Twitter - [@GeekyAmat](https://www.twitter.com/GeekyAmat)
-
-## Acknowledgments
-

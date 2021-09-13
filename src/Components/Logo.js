@@ -8,7 +8,7 @@ const Wrapper = styled.div`
 export default () => {
     return (
         <Wrapper>
-            <Logo />
+            <Logo width='200' viewBox='0 0 158 33' />
         </Wrapper>
     )
 }

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Content = styled.div`
-
+background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
 `;
 
 const H1 = styled.h1`
@@ -11,23 +11,31 @@ const H1 = styled.h1`
 const Span = styled.span`
     display: block;
     color: ${props => props.theme.color.desaturatedRed};
-    letter-spacing: 5px;
-    line-height: 1.2;
+    letter-spacing: 9px;
+    line-height: 1.1;
     font-weight: 300;
-    text-align: center;
-    
-    `;
+    text-align: center;    
+`;
     
     const P = styled.p`
-    letter-spacing: 5px;
-    line-height: 1.2;
+    letter-spacing: 9px;
+    line-height: 1.1;
     text-align: center;
     color: ${props => props.theme.color.darkGrayishRed};
 `;
-
-const Text = styled.p`
+    
+    const Text = styled.p`
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
     color: ${props => props.theme.color.desaturatedRed};
     line-height: 1.4;
+`;
+
+const Input = styled.input`
+    // border-radius: 2em;
+    border-color: ${props => props.theme.color.desaturatedRed};
+    // box-shadow: 0 0 3px #CC0000;
 `;
 
 const Dummy = styled.div`
@@ -47,6 +55,7 @@ export default () => {
             <Text>
                 Hello fellow shoppers! We're currently building out new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
             </Text>
+            <Input type='email'/>
         </Content>
     )
 }
