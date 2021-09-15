@@ -54,6 +54,8 @@ Users should be able to:
 ### What I learned
 
 - Got a lot more comfortable working with .svg files by importing them directly as react components. Understood the difference between viewPort and viewBox and used this concept to appropriately resize the .svg logo without clipping any part of it.
+- Learnt to use the useEffect hook but used it for a simple case. Got a better idea of the reason for using useEffect hook rather than useState hook in case I want to log something after a state change.
+- Got some idea of difference between 'mount', 'render', 're-render' and 'DOM update'.
 
 ### To know further
 
@@ -62,7 +64,8 @@ Users should be able to:
 ### Useful resources
 
 - [What are SVG viewport and viewBox?](https://www.youtube.com/watch?v=TBYJ2V1jAlA) - This helped me understand the difference between viewPort and viewBox.
-- [SVG Components in React](https://www.youtube.com/watch?v=JUrcWu57itY) - Another way to use the .svg file with all its advantages by importing it as a react component.
+- [Difference between DOM update and re-render](https://stackoverflow.com/questions/67947808/difference-between-dom-update-and-re-render)
+- [React: "mount" vs "render"?](https://reacttraining.com/blog/mount-vs-render/)
 
 
 ## Author

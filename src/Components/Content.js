@@ -33,12 +33,6 @@ const Text = styled.p`
     line-height: 1.4;
 `;
 
-const Input = styled.input`
-    // border-radius: 2em;
-    border-color: ${props => props.theme.color.desaturatedRed};
-    // box-shadow: 0 0 3px #CC0000;
-`;
-
 const Dummy = styled.div`
     height: ${props => props.height};
 `;
