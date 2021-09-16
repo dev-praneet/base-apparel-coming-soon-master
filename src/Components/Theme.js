@@ -19,6 +19,7 @@ family: "'Josefin Sans', sans-serif",
 breakpoint: {
 mobile: '850px',
 },
+borderWidth: '2px',
 };
 
 const Theme = ({ children }) => {

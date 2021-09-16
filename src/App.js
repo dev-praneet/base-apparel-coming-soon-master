@@ -7,7 +7,7 @@ import Image from './Components/Image';
 import Content from './Components/Content';
 
 const Container = styled.div`
-max-width: 100%;
+max-width: min(100%, 375px);
 margin: auto;
 `;
 

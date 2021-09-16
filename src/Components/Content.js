@@ -10,27 +10,30 @@ const H1 = styled.h1`
 `;
 
 const Span = styled.span`
+    font-size: 36px;
     display: block;
     color: ${props => props.theme.color.desaturatedRed};
-    letter-spacing: 9px;
+    letter-spacing: 10px;
     line-height: 1.1;
     font-weight: 300;
     text-align: center;    
 `;
     
 const P = styled.p`
-    letter-spacing: 9px;
+    font-size: 36px;
+    letter-spacing: 10px;
     line-height: 1.1;
     text-align: center;
     color: ${props => props.theme.color.darkGrayishRed};
 `;
-    
+
 const Text = styled.p`
+    font-size: 13px;
     max-width: 80%;
     margin: 0 auto;
     text-align: center;
     color: ${props => props.theme.color.desaturatedRed};
-    line-height: 1.4;
+    line-height: 1.5;
 `;
 
 const Dummy = styled.div`
@@ -48,10 +51,11 @@ export default () => {
             </H1>
             <Dummy height='1em' />
             <Text>
-                Hello fellow shoppers! We're currently building out new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+                Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
             </Text>
             <Dummy height='2em' />
             <Form />
+            <Dummy height='5em' />
         </Content>
     )
 }
