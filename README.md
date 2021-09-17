@@ -61,6 +61,10 @@ Users should be able to:
 
 - After importing .svg file as a React component, how am I able to pass attributes which is possible in a React element? Probably the answer could be that the attributes are passed as props itself but .svg is imported in such a way that the props are used to define the corresponding attributes with the provided value under the hood.
 
+- Similar as above is the case with 'Input' component in the Form.js file. How am I simply able to pass the onClick handler while rendering the component and it is able to interpret it as a click event rather than a prop? There is certainly something about the react components that I don't understand cleary.
+
+- This probably has something to do with the components created using 'styled-components' because both the cases discussed above are created using 'styled-components', the .svg one implicitly and the Input component explicitly. I remember passing className as attribute in a react component which was not created using 'styled-documents' and it was being passed as prop rather than as the attribute 'className'.
+
 ### Useful resources
 
 - [What are SVG viewport and viewBox?](https://www.youtube.com/watch?v=TBYJ2V1jAlA) - This helped me understand the difference between viewPort and viewBox.
