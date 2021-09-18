@@ -56,6 +56,7 @@ Users should be able to:
 - Got a lot more comfortable working with .svg files by importing them directly as react components. Understood the difference between viewPort and viewBox and used this concept to appropriately resize the .svg logo without clipping any part of it.
 - Learnt to use the useEffect hook but used it for a simple case. Got a better idea of the reason for using useEffect hook rather than useState hook in case I want to log something after a state change.
 - Got some idea of difference between 'mount', 'render', 're-render' and 'DOM update'.
+- Learnt a lot more about working of css grid.
 
 ### To know further
 

@@ -11,6 +11,10 @@ const Form = styled.div`
     border: 2px solid hsl(0, 0%, 90%);
     border-radius: 2em;
 
+    @media (min-width: ${props => props.theme.breakpoint.mobile}) {
+        margin: initial;
+    }
+
     ${props =>
         props.error &&
         css`

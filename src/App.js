@@ -8,7 +8,20 @@ import Content from './Components/Content';
 
 const Container = styled.div`
 max-width: min(100%, 375px);
+max-height: 580px;
 margin: auto;
+
+@media (min-width: ${props => props.theme.breakpoint.mobile}) {
+  max-width: min(100%, 1000px);
+  display: grid;
+  grid-template-areas: 
+  "first second" 
+  "third second";
+
+  > * {
+    // border: 2px solid blue;
+  }
+}
 `;
 
 function App() {
