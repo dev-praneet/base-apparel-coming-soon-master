@@ -10,7 +10,7 @@ const Content = styled.div`
         display: block;
         margin-left: 10%;
         margin-right: 15%;
-        align-items: center;
+        align-self: center;
         background-image: none;
     }
 `;

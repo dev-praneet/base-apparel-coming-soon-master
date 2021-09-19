@@ -42,6 +42,10 @@ const Input = styled.input.attrs(props => ({type: 'email', placeholder: 'Email A
     border: 0;
     background-color: hsl(0, 100%, 98%);
 
+    @media (min-width: ${props => props.theme.breakpoint.mobile}) {
+        background-color: hsl(0, 100%, 100%);
+    }
+
     &:focus {
         outline: none;
     }
